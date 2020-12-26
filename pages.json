@@ -1,0 +1,40 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "宝可多食堂",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "宝可多食堂"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#8a8a8a",
+	    "selectedColor": "#1296db",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/schedule.png",
+	        "selectedIconPath": "static/@schedule.png",
+	        "text": "清单"
+	    }, {
+	        "pagePath": "pages/order/order",
+	        "iconPath": "static/order.png",
+	        "selectedIconPath": "static/@order.png",
+	        "text": "预订"
+	    }]
+	}
+}
